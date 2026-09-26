@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="flex-grow: 1; width: 100%; height: 100%;">
+        <ui:VisualElement name="Header" style="height: 40%; top: 25%; bottom: 25%; position: relative;">
+            <ui:VisualElement style="justify-content: center; align-items: center; align-self: center; background-color: rgb(255, 255, 255); width: 42%; height: 50%; flex-direction: row; flex-wrap: wrap; align-content: center; position: absolute; top: 25%;">
+                <ui:Label text="You Win!" name="YouWin" style="font-size: 30px; width: 100%; -unity-text-align: upper-center; height: 50%; -unity-text-generator: advanced; -unity-text-auto-size: best-fit 10px 100px;"/>
+                <ui:Label text="Score: 50" name="YouWinScore" style="font-size: 30px; -unity-text-align: lower-center; height: 50%; width: 100%; -unity-text-generator: advanced; -unity-text-auto-size: best-fit 10px 100px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
